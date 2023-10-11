@@ -16,6 +16,7 @@ public class OtlpHttpLogExporter : OtlpHttpExporterBase, LogRecordExporter {
     
     override
     public init(endpoint: URL = defaultOltpHttpLoggingEndpoint(), useSession: URLSession? = nil) {
+        print("OtlpHttpLogExporter dupl 😩")
         super.init(endpoint: endpoint, useSession: useSession)
     }
     
